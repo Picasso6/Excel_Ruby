@@ -17,8 +17,10 @@ Cette classe permet d'obtenir via ses fonctions internes :
  - Convertir le catalogue en fichier CSV (via save_as_csv)
  - Convertir le catalogue en page Google spreadsheet (via save_as_spreadsheet)
 
-page Google spreadsheets
+page Google spreadsheets :
+
 -->  https://docs.google.com/spreadsheets/d/1Jg52TwK2uIWOSNE8DvnoheXqVBFKpDD5APNxXUVk-1c/edit#gid=0
+
 Demandez l'autorisation pour accéder au fichier en ligne
 
 Si vous souhaitez en tant que correcteur checker la fonction save_as_spreadsheet de la classe HalltownsWithMails avec vos propres clés :
