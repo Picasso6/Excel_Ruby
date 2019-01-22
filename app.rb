@@ -9,4 +9,4 @@ require 'app/scrapper'
 # require 'views/fichier_2'
 
 a = HalltownsWithMails.new
- a.save_as_csv
+ a.save_as_spreadsheet
