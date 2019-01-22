@@ -2,6 +2,8 @@ Pour lancer l'application entrez dans votre terminal à l'adresse du directory c
 
 $ ruby app.rb
 
+---------------------------------------------------------------------------------------
+
 app.rb requiert app/scrapper.rb
 les gems necessaires à app.rb sont incluses dans app/scrapper.rb
 
@@ -22,6 +24,8 @@ page Google spreadsheets :
 -->  https://docs.google.com/spreadsheets/d/1Jg52TwK2uIWOSNE8DvnoheXqVBFKpDD5APNxXUVk-1c/edit#gid=0
 
 Demandez l'autorisation pour accéder au fichier en ligne
+
+---------------------------------------------------------------------------------------
 
 Si vous souhaitez en tant que correcteur checker la fonction save_as_spreadsheet de la classe HalltownsWithMails avec vos propres clés :
  - ajoutez un fichier config.json directement dans le dossier racine
