@@ -1,4 +1,5 @@
 Pour lancer l'application entrez dans votre terminal à l'adresse du directory correspondant :
+
 $ ruby app.rb
 
 app.rb requiert app/scrapper.rb
@@ -21,3 +22,6 @@ page Google spreadsheets
 Demandez l'autorisation pour accéder au fichier en ligne
 
 Les bases de données correspondant au catalogue en JSON et CSV sont contenues dans le dossier /db
+
+Pour tester les autres fonctionalités de HalltownsWithMails , supprimez  dans app.rb les hashtags des lignes
+#a.save_as_csv et #a.save_as_JSON
