@@ -29,6 +29,8 @@ Si vous souhaitez en tant que correcteur checker la fonction save_as_spreadsheet
 
   { "client_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
    "client_secret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", }
+ - dans le fichier app/scrapper.rb ajouter l'ID de votre spreadsheet dans la ligne de code suivante
+ ws = session.spreadsheet_by_key("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").worksheets[0]
 
 Les bases de données correspondant au catalogue en JSON et CSV sont contenues dans le dossier /db
 
