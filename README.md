@@ -21,6 +21,13 @@ page Google spreadsheets
 -->  https://docs.google.com/spreadsheets/d/1Jg52TwK2uIWOSNE8DvnoheXqVBFKpDD5APNxXUVk-1c/edit#gid=0
 Demandez l'autorisation pour accéder au fichier en ligne
 
+Si vous souhaitez en tant que correcteur checker la fonction save_as_spreadsheet de la classe HalltownsWithMails avec vos propres clés :
+ - ajoutez un fichier config.json directement dans le dossier racine
+ - intégrez vos client_id et client_secret de la sorte dans le fichier config.json
+
+  { "client_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "client_secret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", }
+
 Les bases de données correspondant au catalogue en JSON et CSV sont contenues dans le dossier /db
 
 Pour tester les autres fonctionalités de HalltownsWithMails , supprimez  dans app.rb les hashtags des lignes
